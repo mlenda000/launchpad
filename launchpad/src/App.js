@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
+import MainContent from "./Components/MainContent/MainContent";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to Launchpad</h1>
+      <MainContent />
     </div>
   );
 }

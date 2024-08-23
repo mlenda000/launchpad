@@ -1,0 +1,38 @@
+import { streamingData } from "../../Data/Data";
+import Header from "../Header/Header";
+
+const MediaContent = () => {
+  return (
+    <div className="media-content">
+      <h1>Streaming Services</h1>
+      <div className="media-content-list">
+        {streamingData.map((streamingService) => (
+          <>
+            {streamingService?.subscribed && (
+              <div key={streamingService.id} className="media-content-item">
+                <a
+                  href={streamingService?.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="media-content-img"
+                >
+                  <button className="media-content-img">
+                    <img
+                      src={streamingService.imgLink}
+                      alt={streamingService.display}
+                      width="200px"
+                    />
+                  </button>
+                </a>
+              </div>
+            )}
+          </>
+        ))}
+        <div className="logo">
+          <Header />
+        </div>
+      </div>
+    </div>
+  );
+};
+export default MediaContent;
