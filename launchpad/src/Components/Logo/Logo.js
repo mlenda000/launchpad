@@ -1,6 +1,6 @@
-const Header = () => {
+const Logo = () => {
   return (
-    <header className="header">
+    <div className="logo-layout">
       <img
         src="launchpad-logo.png"
         alt="launchpad logo"
@@ -8,7 +8,7 @@ const Header = () => {
         height="150px"
       />
       <h1 className="">Launchpad</h1>
-    </header>
+    </div>
   );
 };
-export default Header;
+export default Logo;

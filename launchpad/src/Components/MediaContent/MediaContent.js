@@ -1,5 +1,5 @@
 import { streamingData } from "../../Data/Data";
-import Header from "../Header/Header";
+import Logo from "../Logo/Logo";
 
 const MediaContent = () => {
   return (
@@ -29,7 +29,7 @@ const MediaContent = () => {
           </>
         ))}
         <div className="logo">
-          <Header />
+          <Logo />
         </div>
       </div>
     </div>
