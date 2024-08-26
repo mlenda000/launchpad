@@ -24,7 +24,7 @@ const MediaContent = () => {
                           : streamingService.imgLink
                       }
                       alt={streamingService.display}
-                      width="200px"
+                      width="120px"
                     />
                   </button>
                 </a>
