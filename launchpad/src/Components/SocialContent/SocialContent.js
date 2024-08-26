@@ -16,7 +16,9 @@ const SocialContent = () => {
                 >
                   <img
                     src={
-                      social?.imgLink ? social?.imgLink : "/icons/social.svg"
+                      social?.imgLink
+                        ? social?.imgLink
+                        : process.env.PUBLIC_URL + "/icons/social.svg"
                     }
                     alt={social.display}
                     width="24px"
