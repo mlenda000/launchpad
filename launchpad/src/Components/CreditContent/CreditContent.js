@@ -15,7 +15,7 @@ const CreditContent = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/icons/dollar.svg"
+                    src={process.env.PUBLIC_URL + "/icons/dollar.svg"}
                     alt={finance.display}
                     width="24px"
                   />

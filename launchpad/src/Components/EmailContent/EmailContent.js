@@ -11,7 +11,7 @@ const EmailContent = () => {
               <div key={email.id} className="email-content-item">
                 <a href={email?.link} target="_blank" rel="noopener noreferrer">
                   <img
-                    src="/icons/email.svg"
+                    src={process.env.PUBLIC_URL + "/icons/email.svg"}
                     alt={email.display}
                     width="24px"
                   />
