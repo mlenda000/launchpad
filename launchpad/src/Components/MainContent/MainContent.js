@@ -11,7 +11,7 @@ const MainContent = () => {
       <div className="main-content">
         <MediaContent />
       </div>
-      <div>
+      <div className="side-container">
         <Search />
         <div className="side-content">
           <div>
