@@ -5,8 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  padding-inline: 2rem;
-  padding-block: 2rem;
+  padding: 8px;
   border: 1px solid white;
   border-radius: 8px;
 }
@@ -41,8 +40,8 @@
     cursor: pointer;
   }
 }
-.logo{
-    grid-column:1 / 1;
+.logo {
+  grid-column: 1 / 1;
   grid-row: 4 / 4;
   display: flex;
   align-items: center;

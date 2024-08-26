@@ -4,7 +4,7 @@ import Logo from "../Logo/Logo";
 const MediaContent = () => {
   return (
     <div className="media-content">
-      <h1>Streaming Services</h1>
+      <h2>Streaming Services</h2>
       <div className="media-content-list">
         {streamingData.map((streamingService) => (
           <>
