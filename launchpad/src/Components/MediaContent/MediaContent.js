@@ -18,7 +18,11 @@ const MediaContent = () => {
                 >
                   <button className="media-content-img">
                     <img
-                      src={streamingService.imgLink}
+                      src={
+                        streamingService.imgLink.includes("/logos")
+                          ? process.env.PUBLIC_URL + streamingService.imgLink
+                          : streamingService.imgLink
+                      }
                       alt={streamingService.display}
                       width="200px"
                     />

@@ -15,7 +15,7 @@ const ShoppingContent = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/icons/shopping.svg"
+                    src={process.env.PUBLIC_URL + "/icons/shopping.svg"}
                     alt={shopping.display}
                     width="24px"
                   />
