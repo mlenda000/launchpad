@@ -4,6 +4,7 @@ import CreditContent from "../CreditContent/CreditContent";
 import ShoppingContent from "../ShoppingContent/ShoppingContent";
 import SocialContent from "../SocialContent/SocialContent";
 import Search from "../Search/Search";
+import OtherContent from "../OtherContent/OtherContent";
 
 const MainContent = () => {
   return (
@@ -16,11 +17,12 @@ const MainContent = () => {
         <div className="side-content">
           <div>
             <SocialContent />
-            <CreditContent />
+            <ShoppingContent />
           </div>
           <div>
             <EmailContent />
-            <ShoppingContent />
+            <CreditContent />
+            <OtherContent />
           </div>
         </div>
       </div>

@@ -230,6 +230,12 @@ export const financeData = [
     subscribed: true,
     link: "https://www.greensky.com",
   },
+  {
+    id: "fidelity",
+    display: "Fidelity",
+    subscribed: true,
+    link: "https://www.fidelity.com",
+  },
 ];
 
 export const shoppingData = [
@@ -440,5 +446,31 @@ export const searchEngineData = [
     subscribed: true,
     link: "https://duckduckgo.com/?t=h_&q=",
     imgLink: "/icons/duckduckgo.svg",
+  },
+];
+export const otherData = [
+  {
+    id: "ctu",
+    display: "CTU Student Login",
+    subscribed: true,
+    link: "https://studentlogin.coloradotech.edu/?v=33&ssid=3&cid=6#/login",
+  },
+  {
+    id: "chatgpt",
+    display: "ChatGPT",
+    subscribed: true,
+    link: "https://www.chatgpt.com",
+  },
+  {
+    id: "github",
+    display: "GitHub",
+    subscribed: true,
+    link: "https://www.github.com",
+  },
+  {
+    id: "citation",
+    display: "Citation Machine",
+    subscribed: true,
+    link: "https://www.citationmachine.net",
   },
 ];
