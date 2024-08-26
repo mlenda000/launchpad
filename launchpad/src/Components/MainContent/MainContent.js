@@ -3,6 +3,7 @@ import MediaContent from "../MediaContent/MediaContent";
 import CreditContent from "../CreditContent/CreditContent";
 import ShoppingContent from "../ShoppingContent/ShoppingContent";
 import SocialContent from "../SocialContent/SocialContent";
+import Search from "../Search/Search";
 
 const MainContent = () => {
   return (
@@ -10,14 +11,18 @@ const MainContent = () => {
       <div className="main-content">
         <MediaContent />
       </div>
-
       <div>
-        <EmailContent />
-        <CreditContent />
-      </div>
-      <div>
-        <ShoppingContent />
-        <SocialContent />
+        <Search />
+        <div className="side-content">
+          <div>
+            <SocialContent />
+            <CreditContent />
+          </div>
+          <div>
+            <EmailContent />
+            <ShoppingContent />
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ const Logo = () => {
   return (
     <div className="logo-layout">
       <img
-        src="launchpad-logo.png"
+        src={process.env.PUBLIC_URL + "launchpad-logo.png"}
         alt="launchpad logo"
         width="150px"
         height="150px"
