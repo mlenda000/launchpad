@@ -3,7 +3,7 @@ import { financeData } from "../../Data/Data";
 const CreditContent = () => {
   return (
     <div>
-      <h2>Finance</h2>
+      <h3>Finance</h3>
       <div className="email-content-list">
         {financeData.map((finance) => (
           <>

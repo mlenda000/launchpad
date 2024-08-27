@@ -3,7 +3,7 @@ import { emailData } from "../../Data/Data";
 const EmailContent = () => {
   return (
     <div>
-      <h2>Emails</h2>
+      <h3>Emails</h3>
       <div className="email-content-list">
         {emailData.map((email) => (
           <>

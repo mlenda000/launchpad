@@ -4,6 +4,13 @@ body {
     color: white;
 
   }
+  h3{
+    text-align: start;
+    margin-top:12px;
+    margin-bottom: 0;
+    padding-bottom:0;
+
+  }
   .App {
     /* Component styles */
     @import "./Components/CreditContent/styles/creditContent.scss";

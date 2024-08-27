@@ -3,7 +3,7 @@ import { shoppingData } from "../../Data/Data";
 const ShoppingContent = () => {
   return (
     <div>
-      <h2>Shopping</h2>
+      <h3>Shopping</h3>
       <div className="email-content-list">
         {shoppingData.map((shopping) => (
           <>

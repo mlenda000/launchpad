@@ -7,7 +7,7 @@ const Logo = () => {
         width="100px"
         height="100px"
       />
-      <h2 className="">Launchpad</h2>
+      <h3 className="">Launchpad</h3>
     </div>
   );
 };

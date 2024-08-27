@@ -10,7 +10,9 @@ const Search = () => {
   };
   return (
     <>
-      <h2 className="header">Search</h2>
+      <div className="search-header">
+        <h3>Search</h3>
+      </div>
       <div className="search-container">
         <input
           className="search-input"

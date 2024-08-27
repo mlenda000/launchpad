@@ -3,7 +3,7 @@ import { otherData } from "../../Data/Data";
 const OtherContent = () => {
   return (
     <div className="other-content">
-      <h2>Other content</h2>
+      <h3>Other content</h3>
       <div className="email-content-list">
         {otherData.map((other) => (
           <div key={other?.id} className="email-content-item">

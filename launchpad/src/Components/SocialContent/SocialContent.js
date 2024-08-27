@@ -3,7 +3,7 @@ import { socialData } from "../../Data/Data";
 const SocialContent = () => {
   return (
     <div>
-      <h2>Social Media</h2>
+      <h3>Social Media</h3>
       <div className="email-content-list">
         {socialData.map((social) => (
           <>
