@@ -17,12 +17,12 @@ const MainContent = () => {
         <div className="side-content">
           <div>
             <SocialContent />
-            <ShoppingContent />
+            <OtherContent />
           </div>
+          <ShoppingContent />
           <div>
             <EmailContent />
             <CreditContent />
-            <OtherContent />
           </div>
         </div>
       </div>
