@@ -12,6 +12,7 @@ body {
 
   }
   .App {
+    transform: scale(.9);
     /* Component styles */
     @import "./Components/CreditContent/styles/creditContent.scss";
     @import "./Components/EmailContent/styles/emailContent.scss";
