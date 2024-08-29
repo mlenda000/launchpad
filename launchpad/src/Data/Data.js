@@ -198,7 +198,7 @@ export const financeData = [
     id: "capitalone",
     display: "Capital One",
     subscribed: true,
-    linkg: "https://www.capitalone.com",
+    link: "https://www.capitalone.com",
   },
   {
     id: "toyota",
