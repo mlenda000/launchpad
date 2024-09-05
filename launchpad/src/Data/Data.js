@@ -526,11 +526,18 @@ export const otherData = [
     users: ["user1"],
   },
   {
+    id: "drexel",
+    display: "Drexel",
+    subscribed: true,
+    link: "https://www.drexel.edu",
+    users: ["user3"],
+  },
+  {
     id: "chatgpt",
     display: "ChatGPT",
     subscribed: true,
     link: "https://www.chatgpt.com",
-    users: ["user1"],
+    users: ["user1", "user3"],
   },
   {
     id: "github",
@@ -544,14 +551,7 @@ export const otherData = [
     display: "Citation Machine",
     subscribed: true,
     link: "https://www.citationmachine.net",
-    users: ["user1"],
-  },
-  {
-    id: "drexel",
-    display: "Drexel",
-    subscribed: true,
-    link: "https://www.drexel.edu",
-    users: ["user3"],
+    users: ["user1", "user3"],
   },
   {
     id: "phillyschools",
