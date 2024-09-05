@@ -397,6 +397,7 @@ export const socialData = [
     display: "Snapchat",
     subscribed: false,
     link: "https://www.snapchat.com",
+    imgLink: "/icons/snapchat.svg",
     users: ["user1", "user3"],
   },
   {
@@ -404,6 +405,7 @@ export const socialData = [
     display: "TikTok",
     subscribed: false,
     link: "https://www.tiktok.com",
+    imgLink: "/icons/tiktok.svg",
     users: ["user3"],
   },
   {
