@@ -1,15 +1,16 @@
+import React from "react";
 import { streamingData } from "../../Data/Data";
 import Logo from "../Logo/Logo";
 
-const MediaContent = () => {
+const MediaContent = ({ user }) => {
   return (
     <div className="media-content">
       <h3>Streaming Services</h3>
       <div className="media-content-list">
-        {streamingData.map((streamingService) => (
-          <>
-            {streamingService?.subscribed && (
-              <div key={streamingService.id} className="media-content-item">
+        {streamingData.map((streamingService, i) => (
+          <React.Fragment key={`media-${streamingService.id}-${i}`}>
+            {streamingService?.users.includes(user?.id) && (
+              <div className="media-content-item">
                 <a
                   href={streamingService?.link}
                   target="_blank"
@@ -30,7 +31,7 @@ const MediaContent = () => {
                 </a>
               </div>
             )}
-          </>
+          </React.Fragment>
         ))}
         <div className="logo">
           <Logo />

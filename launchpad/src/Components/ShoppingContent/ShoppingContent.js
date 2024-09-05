@@ -1,13 +1,14 @@
+import React from "react";
 import { shoppingData } from "../../Data/Data";
 
-const ShoppingContent = () => {
+const ShoppingContent = ({ user }) => {
   return (
     <div>
       <h3>Shopping</h3>
       <div className="email-content-list">
-        {shoppingData.map((shopping) => (
-          <>
-            {shopping?.subscribed && (
+        {shoppingData.map((shopping, i) => (
+          <React.Fragment key={`media-${shopping.id}-${i}`}>
+            {shopping?.users.includes(user?.id) && (
               <div key={shopping.id} className="email-content-item">
                 <a
                   href={shopping?.link}
@@ -23,7 +24,7 @@ const ShoppingContent = () => {
                 </a>
               </div>
             )}
-          </>
+          </React.Fragment>
         ))}
       </div>
     </div>

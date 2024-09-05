@@ -1,0 +1,30 @@
+.header{
+    position: absolute;
+    z-index: 100;
+    margin-top: 0;
+    top:0;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    &--button{
+        background-color: transparent;
+        width:40px;
+        height:40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        border-radius:9999px;
+        overflow: hidden;
+    }
+    &--icon {
+        width:48px;
+        height:48px;
+        
+    }
+    &--caption{
+        margin-top: 4px;
+    }
+}

@@ -1,13 +1,13 @@
 import { financeData } from "../../Data/Data";
 
-const CreditContent = () => {
+const CreditContent = ({ user }) => {
   return (
     <div>
       <h3>Finance</h3>
       <div className="email-content-list">
         {financeData.map((finance) => (
           <>
-            {finance?.subscribed && (
+            {finance?.users.includes(user?.id) && (
               <div key={finance.id} className="email-content-item">
                 <a
                   href={finance?.link}

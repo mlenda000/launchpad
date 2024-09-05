@@ -11,11 +11,16 @@ body {
     padding-bottom:0;
 
   }
+ 
   .App {
+    position: relative;
     transform: scale(.9);
+
     /* Component styles */
     @import "./Components/CreditContent/styles/creditContent.scss";
     @import "./Components/EmailContent/styles/emailContent.scss";
+    @import "./Components/Footer/styles/footer.scss";
+    @import "./Components/Header/styles/header.scss";
     @import "./Components/Logo/styles/logo.scss";
     @import "./Components/MainContent/styles/mainContent.scss";
     @import "./Components/MediaContent/styles/mediaContent.scss";
