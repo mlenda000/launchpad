@@ -33,7 +33,10 @@ const MediaContent = ({ user }) => {
             )}
           </React.Fragment>
         ))}
-        <div className="logo">
+        <div
+          className="logo"
+          style={{ gridRow: user.id === "user1" ? "4 / 4" : "3/3" }}
+        >
           <Logo />
         </div>
       </div>
