@@ -16,7 +16,6 @@ const Footer = () => {
   return (
     <footer>
       <p>{jokes}</p>
-      {/* test */}
     </footer>
   );
 };
