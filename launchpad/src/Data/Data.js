@@ -118,6 +118,14 @@ export const streamingData = [
     link: "https://www.discgolfnetwork.com",
     users: ["user1"],
   },
+  { 
+    id: "plex",
+    display:  "Plex Media Server",
+    imgLink: "https://www.reddit.com/r/PleX/comments/tofnun/just_updated_plex_from_google_play_and_noticed_a/#lightbox",
+    subscribed: true,
+    link: "https://app.plex.tv/desktop/?_gl=1*1l4zuc0*_gcl_au*NjkyMzU1OTY2LjE3MjYzMTkxNzI.*_ga*MTMzNzU0MDg3LjE3MjYzMTkxNzI.*_ga_G6FQWNSENB*MTcyNjM1OTcxOS40LjEuMTcyNjM1OTc1MC4yOS4wLjA.#!",
+    users: ["user1"]
+  },
 ];
 
 export const emailData = [
