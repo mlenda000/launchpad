@@ -5,7 +5,7 @@ export const streamingData = [
     imgLink: "/logos/apple.svg",
     subscribed: false,
     link: "https://www.apple.com/apple-tv-plus/",
-    users: [],
+    users: ["user1"],
   },
   {
     id: "netflix",
@@ -116,6 +116,14 @@ export const streamingData = [
     imgLink: "https://www.discgolfnetwork.com/images/app-logo.svg",
     subscribed: true,
     link: "https://www.discgolfnetwork.com",
+    users: ["user1"],
+  },
+  {
+    id: "plex",
+    display: "Plex Media Server",
+    imgLink: "https://i.imgur.com/AN6vgyS.png",
+    subscribed: true,
+    link: "https://app.plex.tv/desktop/?_gl=1*1l4zuc0*_gcl_au*NjkyMzU1OTY2LjE3MjYzMTkxNzI.*_ga*MTMzNzU0MDg3LjE3MjYzMTkxNzI.*_ga_G6FQWNSENB*MTcyNjM1OTcxOS40LjEuMTcyNjM1OTc1MC4yOS4wLjA.#!",
     users: ["user1"],
   },
 ];
